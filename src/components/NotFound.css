@@ -1,0 +1,21 @@
+.NotFound {
+    text-align: center;
+    font-size: 16px;
+}
+
+.NotFound-btn {
+    background-color: transparent;
+    border: 2px solid #178fff;
+    cursor: pointer;
+    font-size: 1rem;
+    color: hsl(0, 0%, 20%);
+    transition: color 0.2s ease-in-out;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.NotFound-btn:hover {
+    font-weight: 800;
+}

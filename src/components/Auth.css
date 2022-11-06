@@ -1,0 +1,42 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.Auth-btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.Auth-btn:hover {
+    transform: scale(1.1);
+}
+
+.Auth-icon {
+    background-color: #c13025;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.Auth-text {
+    background: #f44335;
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 700;
+}

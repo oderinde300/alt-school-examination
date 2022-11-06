@@ -1,0 +1,9 @@
+.Home {
+    padding: 1rem;
+}
+
+@media (max-width: 786px) {
+    .Home {
+        margin-top: 4rem;
+    }
+}

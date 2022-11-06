@@ -1,0 +1,48 @@
+.User {
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem;
+    height: 2.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: hsl(0, 0%, 20%);
+    transition: all 0.2s ease-in-out;
+    max-width: 40rem;
+    border-bottom: 2px solid #178fff;
+}
+
+.User:hover {
+    border-radius: 5px;
+    background-color: #e2edff;
+    color: #178fff;
+}
+
+.User-img {
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 0.3s ease;
+}
+
+.User-img:hover {
+    scale: 1.1;
+}
+
+.User-text {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+}
+
+.User-name {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.User-email {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 50%);
+}
