@@ -17,14 +17,25 @@ const Layout = (props) => {
 
   return (
     <section className="Layout">
-      <nav className="Layout-nav">
-        <ul>
-          <NavLink to="/home">Homepage</NavLink>
-          <NavLink to="/users">Users</NavLink>
-          <NavLink to="/errorBoundary">Error Boundary</NavLink>
-          <NavLink to="/sign-in">Sign In</NavLink>
-        </ul>
-      </nav>
+      <div className="MainNav">
+        <nav className="navigation">
+          <ul>
+            <li>
+              <NavLink to="/home">Homepage</NavLink>
+            </li>
+            <li>
+              <NavLink to="/users">Users</NavLink>
+            </li>
+            <li>
+              {" "}
+              <NavLink to="/errorBoundary">Error Boundary</NavLink>
+            </li>
+          </ul>
+          <NavLink className="sign-in-btn" to="/sign-in">
+            Sign In
+          </NavLink>
+        </nav>
+      </div>
       <div className="menu-icons">
         {showMenu ? (
           <AiOutlineMenu onClick={toggleMenu} size={20} className="icon" />
